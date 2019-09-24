@@ -35,12 +35,12 @@ public class Main {
         }
         catch(Exception e){System.out.println("No hay archivo");e.printStackTrace();}
 
-        /*List<Token> lista = (List<Token>) scanner.getAllTokens();
+        List<Token> lista = (List<Token>) scanner.getAllTokens();
 
         for (Token t : lista)
 
-            System.out.println(t.getType() + ":" + t.getText() + " Line:"+ t.getLine() +"\n");
+            System.out.println(scanner.getTokenNames()[t.getType()] + ":" + t.getText() + " Line:"+ t.getLine() +"\n");
         //scanner = new Scanner(input);
-        scanner.reset();*/
+        scanner.reset();
     }
 }

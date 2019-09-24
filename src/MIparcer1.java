@@ -5,11 +5,6 @@ import org.antlr.v4.runtime.tree.ParseTree;
 public class MIparcer1 {
     private Miscaner elscaner;
     private Token currentToken;
-    private String[] lista ={
-        "IF", "Then", "Else", "While", "Do", "Let", "In", "End", "Const", "Var",
-                "Identifier", "Literal", "Operator", "Pyc", "Parnt", "Dpig", "Lin", "Dp",
-                "Letter", "Digit", "WS"
-    };
     public MIparcer1(Miscaner scaner) {
      elscaner=scaner;
         currentToken=  scaner.nextToken();

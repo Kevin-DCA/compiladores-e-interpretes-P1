@@ -27,6 +27,7 @@ Pc:'['|']';
 fragment Letter : 'a'..'z' | 'A' ..'Z';
 fragment Digit : '0' ..'9';
 //complejas
+Next:[\n];
 TEXT                        : CharContenido+;
 fragment CharContenido
    : '0'..'9'
@@ -66,4 +67,4 @@ Line: '0'..'9'
        | [ \t\r]+
        ;
 WS : [ \t\n\r] + -> skip;
-Next:[\n];
+
