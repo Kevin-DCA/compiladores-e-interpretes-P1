@@ -51,12 +51,9 @@ public class MIparcer1 {
         }
          else if (currentToken.getType()==elscaner.Com){
              accept(elscaner.Com);
-             while(currentToken.getType()==elscaner.Line){
-             accept(elscaner.Line);}
-             if (currentToken.getType()==elscaner.Next) {
-                 accept(elscaner.Next);
-                 parseSingleCommand();
-             } }
+            // while(currentToken.getType()==elscaner.Line){
+            // accept(elscaner.Line);}
+             }
         else if (currentToken.getType()==elscaner.Comi){
             accept(elscaner.Comi);
             while(currentToken.getType()==elscaner.TEXT){

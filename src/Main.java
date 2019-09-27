@@ -1,6 +1,6 @@
 
 import generated.Miscaner;
-
+import generated.Miparcer;
 import org.antlr.v4.runtime.*;
 import org.antlr.v4.runtime.tree.ParseTree;
 
@@ -9,21 +9,23 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args){
+        ventana win=new ventana();
+
         Miscaner scanner = null;
-        MIparcer1 parser = null;
+        Miparcer parser = null;
         CharStream input=null;
         CommonTokenStream tokens = null;
         try {
             input = CharStreams.fromFileName("test.txt");
             scanner = new Miscaner(input);
             tokens = new CommonTokenStream(scanner);
-            parser = new MIparcer1(scanner);
+            parser = new Miparcer(tokens);
 
             try {
                // AST arbol = null;
                // arbol = parser.parseprogram();
                // java.util.concurrent.Future<JFrame> TreeGUI =org.antlr.v4.gui.Trees.inspect(arbol,parser);
-                parser.parseprogram();
+                parser.program();
                 System.out.println("Compilación Terminada!!!");
 
             }
@@ -35,12 +37,12 @@ public class Main {
         }
         catch(Exception e){System.out.println("No hay archivo");e.printStackTrace();}
 
-        List<Token> lista = (List<Token>) scanner.getAllTokens();
+       // List<Token> lista = (List<Token>) scanner.getAllTokens();
 
-        for (Token t : lista)
+       // for (Token t : lista)
 
-            System.out.println(scanner.getTokenNames()[t.getType()] + ":" + t.getText() + " Line:"+ t.getLine() +"\n");
+          //  System.out.println(scanner.getTokenNames()[t.getType()] + ":" + t.getText() + " Line:"+ t.getLine() +"\n");
         //scanner = new Scanner(input);
-        scanner.reset();
+        //scanner.reset();
     }
 }

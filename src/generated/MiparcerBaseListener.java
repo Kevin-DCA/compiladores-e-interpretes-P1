@@ -1,4 +1,4 @@
-// Generated from C:/Users/kevin/Documents/tarea\Miparcer.g4 by ANTLR 4.7.2
+// Generated from C:/Users/kevin/Documents/repositorios/compiladores-e-interpretes-P1\Miparcer.g4 by ANTLR 4.7.2
 package generated;
 
 import org.antlr.v4.runtime.ParserRuleContext;
@@ -107,6 +107,30 @@ public class MiparcerBaseListener implements MiparcerListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitPrimaryExpression(Miparcer.PrimaryExpressionContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterMetodDeclaration(Miparcer.MetodDeclarationContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitMetodDeclaration(Miparcer.MetodDeclarationContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterMetodCall(Miparcer.MetodCallContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitMetodCall(Miparcer.MetodCallContext ctx) { }
 
 	/**
 	 * {@inheritDoc}

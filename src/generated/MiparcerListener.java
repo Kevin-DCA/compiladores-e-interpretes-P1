@@ -1,4 +1,4 @@
-// Generated from C:/Users/kevin/Documents/tarea\Miparcer.g4 by ANTLR 4.7.2
+// Generated from C:/Users/kevin/Documents/repositorios/compiladores-e-interpretes-P1\Miparcer.g4 by ANTLR 4.7.2
 package generated;
 import org.antlr.v4.runtime.tree.ParseTreeListener;
 
@@ -87,4 +87,24 @@ public interface MiparcerListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	void exitPrimaryExpression(Miparcer.PrimaryExpressionContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link Miparcer#metodDeclaration}.
+	 * @param ctx the parse tree
+	 */
+	void enterMetodDeclaration(Miparcer.MetodDeclarationContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link Miparcer#metodDeclaration}.
+	 * @param ctx the parse tree
+	 */
+	void exitMetodDeclaration(Miparcer.MetodDeclarationContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link Miparcer#metodCall}.
+	 * @param ctx the parse tree
+	 */
+	void enterMetodCall(Miparcer.MetodCallContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link Miparcer#metodCall}.
+	 * @param ctx the parse tree
+	 */
+	void exitMetodCall(Miparcer.MetodCallContext ctx);
 }
