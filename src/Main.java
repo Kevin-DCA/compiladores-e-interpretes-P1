@@ -8,8 +8,8 @@ import javax.swing.*;
 import java.util.List;
 
 public class Main {
-    public static void main(String[] args){
-        ventana win=new ventana();
+    public void compile(){
+
 
         Miscaner scanner = null;
         Miparcer parser = null;

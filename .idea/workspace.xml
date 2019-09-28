@@ -2,27 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75491933-0afa-4aa7-ab3b-a7f676de6b09" name="Default" comment="parse plus">
-      <change afterPath="$PROJECT_DIR$/src/ventana.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Miparcer.g4" beforeDir="false" afterPath="$PROJECT_DIR$/Miparcer.g4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Miscaner.g4" beforeDir="false" afterPath="$PROJECT_DIR$/Miscaner.g4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/semana5_kevin/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/semana5_kevin/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/semana5_kevin/generated/Miparcer.interp" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/semana5_kevin/generated/Miparcer.interp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/semana5_kevin/generated/Miparcer.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/semana5_kevin/generated/Miparcer.tokens" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/semana5_kevin/generated/Miscaner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/semana5_kevin/generated/Miscaner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/semana5_kevin/generated/Miscaner.interp" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/semana5_kevin/generated/Miscaner.interp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/semana5_kevin/generated/Miscaner.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/semana5_kevin/generated/Miscaner.tokens" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MIparcer1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MIparcer1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generated/Miparcer.interp" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/Miparcer.interp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generated/Miparcer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/Miparcer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generated/Miparcer.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/Miparcer.tokens" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generated/MiparcerBaseListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/MiparcerBaseListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generated/MiparcerListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/MiparcerListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generated/Miscaner.interp" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/Miscaner.interp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generated/Miscaner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/Miscaner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generated/Miscaner.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/Miscaner.tokens" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ventana.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -149,6 +132,8 @@
       <workItem from="1569448497515" duration="10922000" />
       <workItem from="1569484036606" duration="8556000" />
       <workItem from="1569557169190" duration="1179000" />
+      <workItem from="1569641050131" duration="36000" />
+      <workItem from="1569642513928" duration="563000" />
     </task>
     <task id="LOCAL-00001" summary="parse plus">
       <created>1569348527538</created>
